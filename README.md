@@ -21,3 +21,8 @@ eventType
 - legacy: old accelerations which are pending 
 - added: fresh in off the websocket
 - removed: no longer being accelerated 
+
+```
+txid="YOUR_TRANSACTION_ID_HERE"
+bitcoin-cli getblocktemplate '{"rules": ["segwit"]}' | jq --arg txid "$txid" '.transactions | map(.txid == $txid) | index(true)'
+```
