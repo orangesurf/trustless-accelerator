@@ -1,0 +1,33 @@
+# Generated build artifacts
+/target/
+
+# Lock file: uncomment if this is a library crate
+# Cargo.lock
+
+# Backup files from rustfmt
+**/*.rs.bk
+
+# Editor directories and swap files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+
+# Added by cargo
+
+/target
+
+
+# Added by cargo
+#
+# already existing elements were commented out
+
+#/target
