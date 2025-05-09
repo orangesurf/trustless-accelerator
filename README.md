@@ -20,4 +20,4 @@ bitcoin-cli -rpcwallet=cormorant prioritisetransaction "a29ad50fc90d15c9287a2364
 eventType
 - legacy: old accelerations which are pending 
 - added: fresh in off the websocket
-- removed: 
+- removed: no longer being accelerated 
